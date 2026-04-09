@@ -1,0 +1,716 @@
+{
+  "data": [
+    {
+      "date": "2023-07-07",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 112852
+        },
+        {
+          "region": 1,
+          "count": 5670
+        },
+        {
+          "region": 2,
+          "count": 6927
+        },
+        {
+          "region": 3,
+          "count": 8025
+        },
+        {
+          "region": 4,
+          "count": 28202
+        },
+        {
+          "region": 5,
+          "count": 7511
+        },
+        {
+          "region": 6,
+          "count": 4488
+        },
+        {
+          "region": 7,
+          "count": 7893
+        },
+        {
+          "region": 8,
+          "count": 4183
+        },
+        {
+          "region": 9,
+          "count": 14344
+        },
+        {
+          "region": 10,
+          "count": 7557
+        },
+        {
+          "region": 11,
+          "count": 3348
+        },
+        {
+          "region": 12,
+          "count": 3568
+        },
+        {
+          "region": 13,
+          "count": 2130
+        },
+        {
+          "region": 14,
+          "count": 25957
+        },
+        {
+          "region": 15,
+          "count": 5007
+        },
+        {
+          "region": 16,
+          "count": 6056
+        },
+        {
+          "region": 17,
+          "count": 26711
+        },
+        {
+          "region": 18,
+          "count": 13532
+        },
+        {
+          "region": 19,
+          "count": 14121
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-08",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 103855
+        },
+        {
+          "region": 1,
+          "count": 4335
+        },
+        {
+          "region": 2,
+          "count": 5238
+        },
+        {
+          "region": 3,
+          "count": 4552
+        },
+        {
+          "region": 4,
+          "count": 28039
+        },
+        {
+          "region": 5,
+          "count": 7022
+        },
+        {
+          "region": 6,
+          "count": 2094
+        },
+        {
+          "region": 7,
+          "count": 7527
+        },
+        {
+          "region": 8,
+          "count": 3850
+        },
+        {
+          "region": 9,
+          "count": 13820
+        },
+        {
+          "region": 10,
+          "count": 5489
+        },
+        {
+          "region": 11,
+          "count": 3088
+        },
+        {
+          "region": 12,
+          "count": 2715
+        },
+        {
+          "region": 13,
+          "count": 1899
+        },
+        {
+          "region": 14,
+          "count": 26278
+        },
+        {
+          "region": 15,
+          "count": 4386
+        },
+        {
+          "region": 16,
+          "count": 6399
+        },
+        {
+          "region": 17,
+          "count": 23412
+        },
+        {
+          "region": 18,
+          "count": 11673
+        },
+        {
+          "region": 19,
+          "count": 13013
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-09",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 84385
+        },
+        {
+          "region": 1,
+          "count": 3189
+        },
+        {
+          "region": 2,
+          "count": 4554
+        },
+        {
+          "region": 3,
+          "count": 4094
+        },
+        {
+          "region": 4,
+          "count": 21992
+        },
+        {
+          "region": 5,
+          "count": 4633
+        },
+        {
+          "region": 6,
+          "count": 1331
+        },
+        {
+          "region": 7,
+          "count": 7674
+        },
+        {
+          "region": 8,
+          "count": 3314
+        },
+        {
+          "region": 9,
+          "count": 12233
+        },
+        {
+          "region": 10,
+          "count": 4172
+        },
+        {
+          "region": 11,
+          "count": 2469
+        },
+        {
+          "region": 12,
+          "count": 2299
+        },
+        {
+          "region": 13,
+          "count": 1695
+        },
+        {
+          "region": 14,
+          "count": 21662
+        },
+        {
+          "region": 15,
+          "count": 3951
+        },
+        {
+          "region": 16,
+          "count": 4208
+        },
+        {
+          "region": 17,
+          "count": 18588
+        },
+        {
+          "region": 18,
+          "count": 10384
+        },
+        {
+          "region": 19,
+          "count": 11047
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-10",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 104848
+        },
+        {
+          "region": 1,
+          "count": 4914
+        },
+        {
+          "region": 2,
+          "count": 5484
+        },
+        {
+          "region": 3,
+          "count": 6135
+        },
+        {
+          "region": 4,
+          "count": 27143
+        },
+        {
+          "region": 5,
+          "count": 6731
+        },
+        {
+          "region": 6,
+          "count": 4396
+        },
+        {
+          "region": 7,
+          "count": 7128
+        },
+        {
+          "region": 8,
+          "count": 3514
+        },
+        {
+          "region": 9,
+          "count": 13376
+        },
+        {
+          "region": 10,
+          "count": 6815
+        },
+        {
+          "region": 11,
+          "count": 2578
+        },
+        {
+          "region": 12,
+          "count": 3115
+        },
+        {
+          "region": 13,
+          "count": 1917
+        },
+        {
+          "region": 14,
+          "count": 25639
+        },
+        {
+          "region": 15,
+          "count": 4104
+        },
+        {
+          "region": 16,
+          "count": 4217
+        },
+        {
+          "region": 17,
+          "count": 23748
+        },
+        {
+          "region": 18,
+          "count": 12133
+        },
+        {
+          "region": 19,
+          "count": 13066
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-11",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 101342
+        },
+        {
+          "region": 1,
+          "count": 4746
+        },
+        {
+          "region": 2,
+          "count": 6143
+        },
+        {
+          "region": 3,
+          "count": 5698
+        },
+        {
+          "region": 4,
+          "count": 27608
+        },
+        {
+          "region": 5,
+          "count": 6267
+        },
+        {
+          "region": 6,
+          "count": 4614
+        },
+        {
+          "region": 7,
+          "count": 6896
+        },
+        {
+          "region": 8,
+          "count": 3773
+        },
+        {
+          "region": 9,
+          "count": 13302
+        },
+        {
+          "region": 10,
+          "count": 7040
+        },
+        {
+          "region": 11,
+          "count": 2376
+        },
+        {
+          "region": 12,
+          "count": 3029
+        },
+        {
+          "region": 13,
+          "count": 1931
+        },
+        {
+          "region": 14,
+          "count": 25094
+        },
+        {
+          "region": 15,
+          "count": 4302
+        },
+        {
+          "region": 16,
+          "count": 3440
+        },
+        {
+          "region": 17,
+          "count": 23507
+        },
+        {
+          "region": 18,
+          "count": 11977
+        },
+        {
+          "region": 19,
+          "count": 13207
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-12",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 109050
+        },
+        {
+          "region": 1,
+          "count": 3299
+        },
+        {
+          "region": 2,
+          "count": 5907
+        },
+        {
+          "region": 3,
+          "count": 9428
+        },
+        {
+          "region": 4,
+          "count": 28162
+        },
+        {
+          "region": 5,
+          "count": 6620
+        },
+        {
+          "region": 6,
+          "count": 3785
+        },
+        {
+          "region": 7,
+          "count": 7390
+        },
+        {
+          "region": 8,
+          "count": 3624
+        },
+        {
+          "region": 9,
+          "count": 13775
+        },
+        {
+          "region": 10,
+          "count": 6468
+        },
+        {
+          "region": 11,
+          "count": 3152
+        },
+        {
+          "region": 12,
+          "count": 3149
+        },
+        {
+          "region": 13,
+          "count": 2062
+        },
+        {
+          "region": 14,
+          "count": 27596
+        },
+        {
+          "region": 15,
+          "count": 4960
+        },
+        {
+          "region": 16,
+          "count": 4839
+        },
+        {
+          "region": 17,
+          "count": 25397
+        },
+        {
+          "region": 18,
+          "count": 12564
+        },
+        {
+          "region": 19,
+          "count": 13559
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-13",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 92990
+        },
+        {
+          "region": 1,
+          "count": 1676
+        },
+        {
+          "region": 2,
+          "count": 6026
+        },
+        {
+          "region": 3,
+          "count": 11240
+        },
+        {
+          "region": 4,
+          "count": 23312
+        },
+        {
+          "region": 5,
+          "count": 5800
+        },
+        {
+          "region": 6,
+          "count": 5007
+        },
+        {
+          "region": 7,
+          "count": 6903
+        },
+        {
+          "region": 8,
+          "count": 3660
+        },
+        {
+          "region": 9,
+          "count": 12678
+        },
+        {
+          "region": 10,
+          "count": 5443
+        },
+        {
+          "region": 11,
+          "count": 2185
+        },
+        {
+          "region": 12,
+          "count": 2666
+        },
+        {
+          "region": 13,
+          "count": 1590
+        },
+        {
+          "region": 14,
+          "count": 24030
+        },
+        {
+          "region": 15,
+          "count": 3788
+        },
+        {
+          "region": 16,
+          "count": 4064
+        },
+        {
+          "region": 17,
+          "count": 19620
+        },
+        {
+          "region": 18,
+          "count": 10856
+        },
+        {
+          "region": 19,
+          "count": 12265
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-14",
+      "region_data": [
+        {
+          "region": 0,
+          "count": 95379
+        },
+        {
+          "region": 1,
+          "count": 1399
+        },
+        {
+          "region": 2,
+          "count": 7118
+        },
+        {
+          "region": 3,
+          "count": 13545
+        },
+        {
+          "region": 4,
+          "count": 13767
+        },
+        {
+          "region": 5,
+          "count": 6529
+        },
+        {
+          "region": 6,
+          "count": 4123
+        },
+        {
+          "region": 7,
+          "count": 6992
+        },
+        {
+          "region": 8,
+          "count": 3697
+        },
+        {
+          "region": 9,
+          "count": 13085
+        },
+        {
+          "region": 10,
+          "count": 6543
+        },
+        {
+          "region": 11,
+          "count": 2440
+        },
+        {
+          "region": 12,
+          "count": 2843
+        },
+        {
+          "region": 13,
+          "count": 1689
+        },
+        {
+          "region": 14,
+          "count": 24825
+        },
+        {
+          "region": 15,
+          "count": 3810
+        },
+        {
+          "region": 16,
+          "count": 5395
+        },
+        {
+          "region": 17,
+          "count": 21048
+        },
+        {
+          "region": 18,
+          "count": 12263
+        },
+        {
+          "region": 19,
+          "count": 12855
+        },
+        {
+          "region": 20,
+          "count": -1
+        }
+      ]
+    }
+  ]
+}

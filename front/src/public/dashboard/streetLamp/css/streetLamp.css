@@ -1,0 +1,249 @@
+/*.lamp__info__item--off .lamp__info__icon--ledLamp {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_ledStreetlamp_off.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--cctvPtz {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_cctvPtz_stop.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--cctvFix {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_cctvFixed_stop.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--emergencyBell {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_emergencyBell_none.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--ledBorad {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_ledBoard_stop.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--projector {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_projector_stop.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--ito {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_iotAp_stop.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--publicWifi {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_publicWifi_stop.svg");*/
+/*}*/
+/*.lamp__info__item--off .lamp__info__icon--population {*/
+/*  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_floatingPopulation_stop.svg");*/
+/*}*/
+.lamp__info__icon {
+  width: 43px;
+  height: 43px;
+  margin: 11px 0;
+}
+.lamp__info__icon i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.lamp__info__icon--ledLamp {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_ledStreetlamp_on.svg");
+}
+.lamp__info__icon--cctvPtz {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_cctvPtz_working.svg");
+}
+.lamp__info__icon--cctvFix {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_cctvFixed_working.svg");
+}
+.lamp__info__icon--emergencyBell {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_emergencyBell_occur.svg");
+}
+.lamp__info__icon--ledBorad {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_ledBoard_working.svg");
+}
+.lamp__info__icon--projector {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_projector_working.svg");
+}
+.lamp__info__icon--ito {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_iotAp_working.svg");
+}
+.lamp__info__icon--publicWifi {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_publicWifi_working.svg");
+}
+.lamp__info__icon--population {
+  background-image: url("../../../image/dark/page/streetLamp/img/img_list_object_floatingPopulation_working.svg");
+}
+
+.gis__icon {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  cursor: pointer;
+}
+.gis__icon--smart {
+  width: 52px;
+  height: 52px;
+  background-image: url("../../../image/dark/page/streetLamp/icon/gis/icon_gis_smart_streetlamp_normal.svg");
+}
+.gis__icon--smart.active {
+  background-image: url("../../../image/dark/page/streetLamp/icon/gis/icon_gis_smart_streetlamp_active.svg");
+}
+.gis__icon--smart-event {
+  background-image: url("../../../image/dark/page/streetLamp/icon/gis/icon_gis_smart_streetlamp_event_normal.svg");
+}
+.gis__icon--smart-event.active {
+  background-image: url("../../../image/dark/page/streetLamp/icon/gis/icon_gis_smart_streetlamp_event_active.svg");
+}
+
+.content__body {
+  padding: 0 24px 0 32px;
+}
+.content__body .lamp__list__scroll {
+  height: 892px;
+  padding-right: 10px;
+}
+.content__body .lamp__list__scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.content__body .lamp__item {
+  padding: 23px;
+  border-radius: 16px;
+  border: 1px solid #333440;
+  background: #262733;
+  margin-bottom: 10px;
+
+}
+.content__body .lamp__item:hover {
+  border: 1px solid #434452;
+  background: #323442;
+  cursor: pointer;
+}
+.content__body .lamp__item.active {
+  border: 1px solid #FF6F26;
+}
+.content__body .lamp__item + .lamp__item {
+  margin-top: 7px;
+}
+.content__body .lamp__item__head {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 17px;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.4);
+}
+.content__body .lamp__item__head::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: calc(100% + 1px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.content__body .lamp__item__head .icon__lamp {
+  display: inline-block;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 8px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.content__body .lamp__item__head .icon__lamp--smart {
+  background-image: url("../../../image/dark/page/streetLamp/icon/icon_list_smart_streetlamp.svg");
+}
+.content__body .lamp__item__head .lamp__title {
+  display: flex;
+  flex-direction: column;
+}
+.content__body .lamp__item__head .lamp__title .sub-title {
+  font-size: 17px;
+  font-weight: 500;
+  color: #FFF;
+}
+.content__body .lamp__item__head .lamp__address {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.content__body .lamp__item__head .lamp__address__name {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  color: #C7C8C9;
+}
+.content__body .lamp__item__head .lamp__address__name::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 13px;
+  margin-right: 7px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../../image/dark/page/streetLamp/icon/icon_list_address.svg");
+}
+.content__body .lamp__item__head .lamp__address__value {
+  color: #F7F7F7;
+}
+.content__body .lamp__item__body {
+  margin-top: 17px;
+}
+.content__body .lamp__item__body .lamp__info__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.content__body .lamp__item__body .lamp__info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 125px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  background: rgba(250, 250, 250, 0.08);
+}
+.content__body .lamp__item__body .lamp__info__item--on {
+  border-color: rgba(255, 111, 38, 0.48);
+}
+.content__body .lamp__item__body .lamp__info__item--on .lamp__info__state {
+  font-weight: 700;
+  color: #FF6F26;
+  background: rgba(255, 111, 38, 0.2);
+}
+.content__body .lamp__item__body .lamp__info__item--off {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.content__body .lamp__item__body .lamp__info__item--off .lamp__info__state {
+  color: #FFF;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.content__body .lamp__item__body .lamp__info__item--occur {
+  border-color: rgba(243, 80, 80, 0.72);
+}
+.content__body .lamp__item__body .lamp__info__item--occur .lamp__info__state {
+  width: 55px;
+  color: #F35050;
+  background: rgba(243, 80, 80, 0.2);
+}
+.content__body .lamp__item__body .lamp__info__item--working {
+  border-color: rgba(57, 184, 255, 0.48);
+}
+.content__body .lamp__item__body .lamp__info__item--working .lamp__info__state {
+  color: #39B8FF;
+  background: rgba(57, 184, 255, 0.2);
+}
+.content__body .lamp__item__body .lamp__info__name {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+}
+.content__body .lamp__item__body .lamp__info__state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49px;
+  height: 18px;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+

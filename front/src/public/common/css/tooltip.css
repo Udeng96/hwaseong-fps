@@ -1,0 +1,18 @@
+/*tooltip style*/
+.tooltip_text {
+  width: auto;
+  height: auto;
+  border-radius: 0.1vw;
+  border: solid 0.03vw #b55a14;
+  background-color: #1a1b21;
+  color: #cfe2e5;
+  font-family: "NotoSansCJKR";
+  font-size: 0.42vw;
+  position: absolute;
+  top: 2.18vh;
+  z-index: 1;
+  padding: 0.2vh 0.3vw;
+  display: none;
+}
+
+/*# sourceMappingURL=tooltip.css.map */

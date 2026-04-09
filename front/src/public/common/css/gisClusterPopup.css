@@ -1,0 +1,164 @@
+/*gisClusterPopup style*/
+.gis_cluster_popup {
+  width: 10.90625vw;
+  height: 26.67vh;
+  border-radius: 0.39vw;
+  box-shadow: 0 0.11vw 0.11vw 0 rgba(2, 7, 25, 0.24);
+  background-image: linear-gradient(330deg, rgba(54, 63, 76, 0.95) 5%, rgba(66, 81, 102, 0.95) 95%);
+  padding: 2.9vh 0.46vw 1.01vh 0.46vw;
+  position: absolute;
+  top: 1.14vh;
+  left: 3.63vw;
+  z-index: 10001;
+}
+.gis_cluster_popup .btn_popup_close {
+  width: 0.85vw;
+  height: 1.59vh;
+  background: url("../../image/dark/new/btn_sensorPop_close.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 1.01vh;
+  right: 0.39vw;
+}
+.gis_cluster_popup .cluster_list_frame {
+  width: 100%;
+  height: 100%;
+  border-top: 0.03vw solid rgba(8, 37, 44, 0.4);
+  padding-top: 0.94vh;
+  position: relative;
+}
+.gis_cluster_popup .cluster_list_frame::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.07vh;
+  opacity: 0.2;
+  background-color: #e5f9ff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 9.9vw;
+  height: 2.03vh;
+  border-radius: 0.15vw;
+  padding: 0 0.3125vw 0 0.39vw;
+  transition: all 0.25s;
+  position: relative;
+  margin-bottom: 0.15vh;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li:last-child {
+  margin-bottom: 0;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li:hover {
+  background-color: rgba(217, 217, 217, 0.1);
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li .cctv_name {
+  max-width: 7.7vw;
+  font-family: "NotoSansCJKM";
+  font-size: 0.46vw;
+  letter-spacing: -0.01vw;
+  text-align: left;
+  color: #d7dce0;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li .cctv_name:hover {
+  text-decoration: underline;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li .btn_play {
+  width: 0.78125vw;
+  height: 1.45vh;
+  background: url("../../image/dark/new/btn_clusteringPop_play_normal.png") no-repeat;
+  background-size: 100%;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li .btn_play:hover {
+  background: url("../../image/dark/new/btn_clusteringPop_play_hover.png") no-repeat;
+  background-size: 100%;
+}
+.gis_cluster_popup .cluster_list_frame ul.cluster_list > li .tooltip_text {
+  left: 1.44vw;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip-container{
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+
+.leaflet-cctvClusterPopup-pane{
+  z-index: 10001 !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button{
+  display: none;
+}
+
+.leaflet-visitorPopup-pane .leaflet-popup-content-wrapper, .leaflet-popup-tip{
+  background: #1d1f35 ;
+  color: #fdfdff ;
+  box-shadow: none ;
+}
+
+.facility_info_frame{
+  max-width: 400px;
+  background: #1d1f35 ;
+  color: #fdfdff ;
+  box-shadow: none ;
+  border: 1px solid #0d0d1f;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 12px;
+  height: auto;
+  padding: 10px 18px 13px  17px;
+  top: 35px;
+}
+
+.facility_info_title{
+  font-size: 14px;
+  font-weight: normal;
+  color: #fdfdff;
+  margin-bottom: 4px;
+
+}
+
+.facility_info_frame .title{
+  font-size: 12px;
+  color: #c9ccd6;
+  margin-right: 7px;
+}
+
+.facility_info_frame .info{
+  margin-bottom: 4px;
+}
+
+.leaflet-visitorPopup-pane .leaflet-popup-content-wrapper{
+  text-align: center;
+}
+
+.leaflet-visitorPopup-pane .leaflet-popup-content p{
+  margin: 0.3em 0;
+}
+
+.leaflet-visitorPopup-pane .leaflet-popup{
+  bottom: 10px !important;
+}
+
+
+

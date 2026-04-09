@@ -1,0 +1,10 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.5" y="3.5" width="11" height="10" rx="1.5" stroke="#DCDDE0"/>
+<rect width="1" height="3" rx="0.5" transform="matrix(-1 0 0 1 6 2)" fill="#DCDDE0"/>
+<rect width="1.5" height="2" transform="matrix(-1 0 0 1 8.75 10)" fill="#FC7220"/>
+<path d="M8.75 8H10.25L8.75 10H7.25L8.75 8Z" fill="#FC7220"/>
+<path d="M7.25 8H5.75L7.25 10H8.75L7.25 8Z" fill="#FC7220"/>
+<rect opacity="0.33" width="10" height="2" transform="matrix(-1 0 0 1 13 4)" fill="#DCDDE0"/>
+<rect width="1" height="3" rx="0.5" transform="matrix(-1 0 0 1 11 2)" fill="#DCDDE0"/>
+<rect width="10" height="1" transform="matrix(-1 0 0 1 13 6)" fill="#DCDDE0"/>
+</svg>

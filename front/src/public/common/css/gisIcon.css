@@ -1,0 +1,55 @@
+/*gisIcon style*/
+.gis_icon {
+  width: 1.91vw;
+  height: 5.5vh;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.gis_icon.cctv_fixed_icon {
+  background: url("../../image/dark/new/icon_map_position_cctv_fixed_normal.png") no-repeat;
+  background-size: 100%;
+}
+.gis_icon.cctv_fixed_icon:hover {
+  background: url("../../image/dark/new/icon_map_position_cctv_fixed_hover.png") no-repeat;
+  background-size: 100%;
+}
+.gis_icon.cctv_fixed_icon.active {
+  background: url("../../image/dark/new/icon_map_position_cctv_fixed_active.png") no-repeat;
+  background-size: 100%;
+}
+.cctv_cluster_icon {
+  width: 1.99vw;
+  height: 5.7vh;
+  background: url("../../image/dark/new/icon_cctv_clustering_normal.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.cctv_cluster_icon:hover {
+  background: url("../../image/dark/new/icon_cctv_clustering_hover.png") no-repeat;
+  background-size: 100%;
+}
+.cctv_cluster_icon.active {
+  background: url("../../image/dark/new/icon_cctv_clustering_active.png") no-repeat;
+  background-size: 100%;
+}
+.cctv_cluster_icon .count_num {
+  width: auto;
+  height: 1.45vh;
+  border-radius: 0.39vw;
+  border: solid 0.05vw #fff;
+  background-color: #ce5d0d;
+  padding: 0 0.33vw 0 0.29vw;
+  font-family: "SCDreamB";
+  font-size: 0.46vw;
+  letter-spacing: -0.02vw;
+  color: #fff;
+  position: absolute;
+  top: -0.14ch;
+  left: 1.36vw;
+  z-index: 2;
+}
+

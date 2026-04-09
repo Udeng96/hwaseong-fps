@@ -1,0 +1,19 @@
+/*common scroll style*/
+.gis_cluster_popup .cluster_list_frame ul.cluster_list::-webkit-scrollbar {
+    background-color: transparent;
+    width: 2px;
+}
+
+.gis_cluster_popup .cluster_list_frame ul.cluster_list::-webkit-scrollbar-track {
+    background-color: rgba(3, 4, 8, 0.1);
+    border-radius: 1px;
+}
+
+.gis_cluster_popup .cluster_list_frame ul.cluster_list::-webkit-scrollbar-thumb {
+    background-color: #5e6266;
+    border-radius: 2px;
+}
+
+.gis_cluster_popup .cluster_list_frame ul.cluster_list::-webkit-scrollbar-thumb:hover {
+    background-color: #83898f;
+}
