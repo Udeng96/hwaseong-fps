@@ -26,7 +26,7 @@
 ### 1. 위치별 방문객 현황
 
 <p align="center">
-  <img src="docs/screenshots/위치별_방문객.png" alt="위치별 방문객 현황 화면" width="850">
+  <img src="위치별_방문객.png" alt="위치별 방문객 현황 화면" width="850">
 </p>
 
 - **지역별 인구 밀집도 시각화**  
@@ -39,7 +39,7 @@
 ### 2. 인구 이동(Migration) 분석 · 예측 · 체류시간
 
 <p align="center">
-  <img src="docs/screenshots/유입유출.png" alt="유입·유출 및 체류시간 분석 화면" width="850">
+  <img src="유입유출.png" alt="유입·유출 및 체류시간 분석 화면" width="850">
 </p>
 
 - **인구 이동(Migration) 경로 시각화**  
@@ -52,7 +52,7 @@
 ### 3. 통계 차트 · 데이터 내보내기
 
 <p align="center">
-  <img src="docs/screenshots/방문객_통계.png" alt="날짜별 방문객 통계 화면" width="850">
+  <img src="방문객_통계.png" alt="날짜별 방문객 통계 화면" width="850">
 </p>
 
 - **날짜별 유동인구 통계 차트** (Highcharts)
@@ -121,7 +121,6 @@ hwaseong-fps/
 │               ├── server/  — 서버에서 받은 데이터 보관
 │               └── view/    — 화면 상태(어느 탭, 어느 지역 선택 등)
 │
-├── docs/screenshots/      — README에 사용된 화면 캡처
 ├── pom.xml                — 백엔드 의존성 목록 (Maven)
 ├── mvnw, mvnw.cmd         — Maven 실행 스크립트
 └── README.md              — 이 문서
