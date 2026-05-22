@@ -25,9 +25,7 @@
 
 ### 1. 위치별 방문객 현황
 
-<p align="center">
-  <img src="위치별_방문객.png" alt="위치별 방문객 현황 화면" width="850">
-</p>
+![위치별 방문객 현황 화면](screenshot-location.png)
 
 - **지역별 인구 밀집도 시각화**  
   Leaflet 지도 위에 마커를 띄워, 사람이 많은 곳일수록 단계별로 다르게 표시
@@ -38,9 +36,7 @@
 
 ### 2. 인구 이동(Migration) 분석 · 예측 · 체류시간
 
-<p align="center">
-  <img src="유입유출.png" alt="유입·유출 및 체류시간 분석 화면" width="850">
-</p>
+![유입·유출 및 체류시간 분석 화면](screenshot-migration.png)
 
 - **인구 이동(Migration) 경로 시각화**  
   어디서 어디로 사람이 움직였는지 지도 위에 화살표/선으로 표현
@@ -51,9 +47,7 @@
 
 ### 3. 통계 차트 · 데이터 내보내기
 
-<p align="center">
-  <img src="방문객_통계.png" alt="날짜별 방문객 통계 화면" width="850">
-</p>
+![날짜별 방문객 통계 화면](screenshot-stats.png)
 
 - **날짜별 유동인구 통계 차트** (Highcharts)
 - **엑셀 다운로드** — 분석 데이터를 파일로 내려받기
