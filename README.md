@@ -130,39 +130,39 @@ hwaseong-fps/
 
 ### 백엔드 (서버) — 화성시 API를 받아서 화면에 내려주는 쪽
 
-| 기능 | API 주소 | 핵심 파일 |
+| 기능 | 어떤 역할을 하는지 | 핵심 파일 |
 |---|---|---|
-| 지역 목록 조회 | `GET /fps/region` | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
-| 평균 체류시간 분석 | `GET /fps/stayTime` | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
-| 방문자 수 집계 | `GET /fps/visitor` | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
-| 방문자 수 예측 | `GET /fps/visitor/predictions` | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
-| **인구 이동(Migration)** | `GET /fps/migration` | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
-| 데이터 엑셀 다운로드 | `POST /fps/excelDownload` | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
-| 비즈니스 로직 (데이터 가공) | — | [FpsService.java](src/main/java/com/eseict/fps/service/fps/FpsService.java) |
-| DB 접근 | — | [FacDao.java](src/main/java/com/eseict/fps/dao/FacDao.java) |
-| DB 설정 | — | [BJDataConfig.java](src/main/java/com/eseict/fps/config/db/BJDataConfig.java) |
+| 지역 목록 조회 | 화성시의 분석 대상 지역(동/읍/면) 목록을 내려줌 | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
+| 평균 체류시간 분석 | 선택한 기간 동안 각 지역에서 사람들이 평균 얼마나 머물렀는지 계산해서 내려줌 | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
+| 방문자 수 집계 | 지역별·기간별 방문자 수를 합산해서 내려줌 | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
+| **방문자 수 예측** | 과거 데이터 기반으로 향후 방문자 수 예측값을 내려줌 | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
+| **인구 이동(Migration)** | A지역 → B지역으로 얼마나 많은 사람이 이동했는지 경로별 인원 데이터를 내려줌 | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
+| **엑셀 다운로드** | 분석 데이터를 Apache POI로 엑셀 파일로 변환해서 내려줌 | [FpsController.java](src/main/java/com/eseict/fps/controller/fps/FpsController.java) |
+| 비즈니스 로직 (데이터 가공) | 화성시 외부 API로 받은 raw 데이터를 화면 요구사항에 맞게 가공·집계하는 핵심 로직 | [FpsService.java](src/main/java/com/eseict/fps/service/fps/FpsService.java) |
+| DB 접근 | PostgreSQL에서 시설물·지역 정보를 조회하는 데이터 접근 계층 | [FacDao.java](src/main/java/com/eseict/fps/dao/FacDao.java) |
+| DB 연결 설정 | 데이터베이스 커넥션 풀과 트랜잭션 설정 | [BJDataConfig.java](src/main/java/com/eseict/fps/config/db/BJDataConfig.java) |
 
 ### 프론트엔드 (화면) — 사용자가 보는 쪽
 
-| 화면/기능 | 핵심 폴더·파일 |
-|---|---|
-| **전체 화면** (지도+패널 레이아웃) | [fpsRootArea.tsx](front/src/page/component/fps/fpsRootArea.tsx) |
-| **지도(Leaflet) — 밀집도 마커 표시** | [fps/gis/](front/src/page/component/fps/gis) |
-| └ 지도 컨트롤 | [gisControl.tsx](front/src/page/component/fps/gis/gisControl.tsx) |
-| └ **밀집도 단계별 마커** | [gis/marker/](front/src/page/component/fps/gis/marker) |
-| └ 마커 클릭 시 팝업 | [gis/popup/](front/src/page/component/fps/gis/popup) |
-| └ 지도 위 레이어 | [gis/layer/](front/src/page/component/fps/gis/layer) |
-| **유동인구 패널** (체류·이동·지역별) | [right/content/float/](front/src/page/component/fps/right/content/float) |
-| └ 체류 통계 | [float/stayStat/](front/src/page/component/fps/right/content/float/stayStat) |
-| └ 지역별 통계 | [float/region/](front/src/page/component/fps/right/content/float/region) |
-| └ **차트 모달(날짜별 통계)** | [float/modal/chart/](front/src/page/component/fps/right/content/float/modal/chart) |
-| **방문자 수 패널** | [right/content/visitor/](front/src/page/component/fps/right/content/visitor) |
-| **공통 컴포넌트** | [component/common/](front/src/page/component/common) |
-| └ 상단바 | [topbarArea.tsx](front/src/page/component/common/topbarArea.tsx) |
-| └ 로딩 화면 | [loadingArea.tsx](front/src/page/component/common/loadingArea.tsx) |
-| **라우팅(주소별 화면 연결)** | [router.tsx](front/src/page/router/router.tsx) |
-| **서버 API 호출 로직** | [saga/apis/](front/src/page/saga/apis) · [fpsSaga.ts](front/src/page/saga/fps/fpsSaga.ts) |
-| **상태 저장소(Redux Store)** | [page/store/](front/src/page/store) |
+| 화면/기능 | 어떤 역할을 하는지 | 핵심 폴더·파일 |
+|---|---|---|
+| **전체 화면** | 왼쪽 지도 + 오른쪽 데이터 패널 레이아웃을 구성하는 최상위 컴포넌트 | [fpsRootArea.tsx](front/src/page/component/fps/fpsRootArea.tsx) |
+| **지도 (Leaflet)** | Leaflet으로 화성시 지도를 렌더링하고 마커·팝업·레이어를 띄우는 영역 | [fps/gis/](front/src/page/component/fps/gis) |
+| └ 지도 컨트롤 | 확대/축소·기본 위치 이동 등 지도 조작 UI | [gisControl.tsx](front/src/page/component/fps/gis/gisControl.tsx) |
+| └ **밀집도 단계별 마커** | 인구 밀집도에 따라 마커 색상·크기를 다르게 표시하는 핵심 시각화 | [gis/marker/](front/src/page/component/fps/gis/marker) |
+| └ 마커 클릭 시 팝업 | 마커를 누르면 그 지역의 상세 수치를 보여주는 팝업 | [gis/popup/](front/src/page/component/fps/gis/popup) |
+| └ 지도 위 레이어 | 행정구역 경계 등 지도 위에 겹치는 레이어 | [gis/layer/](front/src/page/component/fps/gis/layer) |
+| **유동인구 패널** | 체류시간·이동 현황·지역별 통계를 표시하는 우측 데이터 영역 | [right/content/float/](front/src/page/component/fps/right/content/float) |
+| └ 체류 통계 | 선택한 지역의 평균 체류시간 통계 표시 | [float/stayStat/](front/src/page/component/fps/right/content/float/stayStat) |
+| └ 지역별 통계 | 지역별 방문자 수·이동 경로를 표로 나열 | [float/region/](front/src/page/component/fps/right/content/float/region) |
+| └ **차트 모달** | 날짜별 유동인구 변화를 Highcharts 그래프로 보여주는 팝업 | [float/modal/chart/](front/src/page/component/fps/right/content/float/modal/chart) |
+| **방문자 수 패널** | 방문자 수와 예측 데이터를 보여주는 영역 | [right/content/visitor/](front/src/page/component/fps/right/content/visitor) |
+| **공통 컴포넌트** | 여러 화면에서 공유하는 UI 부품 모음 | [component/common/](front/src/page/component/common) |
+| └ 상단바 | 화면 최상단의 네비게이션·로고 영역 | [topbarArea.tsx](front/src/page/component/common/topbarArea.tsx) |
+| └ 로딩 화면 | 데이터 로딩 중 표시되는 스피너 | [loadingArea.tsx](front/src/page/component/common/loadingArea.tsx) |
+| **라우팅** | URL에 따라 어떤 화면을 보여줄지 분기 | [router.tsx](front/src/page/router/router.tsx) |
+| **서버 API 호출 (Saga)** | 백엔드 API를 호출하고 결과를 Redux에 저장하는 비동기 처리 로직 | [saga/apis/](front/src/page/saga/apis) · [fpsSaga.ts](front/src/page/saga/fps/fpsSaga.ts) |
+| **상태 저장소 (Redux Store)** | 서버 응답 데이터와 화면 상태(선택 지역, 기간 등)를 보관 | [page/store/](front/src/page/store) |
 
 ---
 
